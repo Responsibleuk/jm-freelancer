@@ -903,6 +903,33 @@ footer.bottom a {
   color: #2C55D5;
 }
 
+
+
+.social-links-top {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links-top li {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links-top li a {
+  color: #000;
+  margin: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.social-links-top li a:hover {
+  color: #2C55D5;
+}
+
 /*
   10. Forms
 */
